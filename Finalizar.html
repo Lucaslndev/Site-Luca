@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Final-compra.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+</head>
+
+<body>
+    <header>
+        <span>LUCA</span>
+    </header>
+
+    <div class="container">
+        <div class="form">
+            <form>
+
+                <h4>DADOS PARA CONTATO</h4>
+
+                <br>
+                Nome completo
+                <br><br>
+                <input type="text" required>
+                <br><br>
+                E-mail
+                <br><br>
+                <input type="text" placeholder="exemplo@gmail.com" required>
+                <br><br>
+                Telefone
+                <br><br>
+                <input type="text" placeholder="(xx) xxxxx-xxxx" class="tel" required>
+                <br><br>
+
+                <h4>ENDEREÇO PARA ENTREGA</h4>
+
+                <br>
+
+                <div class="entrega-rigth">
+                    Estado
+                    <br><br>
+                    <input type="text" class="estado" required>
+                </div>
+
+                <div class="entrega-rigth">
+                    Bairro
+                    <br><br>
+                    <input type="text" class="bairro" required>
+                </div>
+
+                <br><br>
+
+                <div class="entrega-rigth">
+                    CEP
+                    <br><br>
+                    <input type="text" class="cep" placeholder="00000-000" required>
+                </div>
+
+                <div class="entrega-rigth">
+                    Número
+                    <br><br>
+                    <input type="text" class="numero" required>
+                </div>
+
+                <div class="entrega-rigth">
+                    Complemento (opcional)
+                    <br><br>
+                    <input type="text" class="complemento" required>
+                </div>
+            </form>
+
+            <div class="dados-cartao">
+
+                <form>
+
+                    <h4>DADOS DO CARTÃO</h4>
+
+                    <br>
+
+                    Número do cartão
+                    <br><br>
+                    <input type="text" class="number-card" required>
+                    <br><br>
+
+                    Nome completo
+                    <br><br>
+                    <input type="text" class="nome-cartao" required>
+                    <br>
+                    <label>Conforme aparece no cartão</label>
+                    <br><br>
+
+                    <div class="cartao-rigth">
+                        Data de vencimento
+                        <br><br>
+                        <input type="text" class="vencimento" placeholder="Mês / Ano" required>
+                        <br>
+                    </div>
+
+                    <div class="cartao-rigth">
+                        Código de segurança
+                        <br><br>
+                        <input type="text" class="seguranca" placeholder="CVV" required>
+                    </div>
+                    <br><br><br>
+
+                    CPF do titular cartão
+                    <br><br>
+                    <input type="text" class="titular" required>
+
+                </form>
+
+            </div>
+        </div>
+        <div class="container2">
+            <div class="resumo">
+                <div class="resumo-compra">
+                    <h3>RESUMO DA COMPRA</h3>
+                    <hr>
+                    <h4>PRODUTO <span class="produto" id="preco">R$ 19,90</span></h4>
+                    <h4>FRETE <span class="frete">GRÁTIS</span></h4>
+                    <h4>PROMOÇÃO APLICADA <span class="promocao">--</span></h4>
+                    <hr>
+                    <h4>TOTAL DO PEDIDO <span class="total" id="preco2">R$ 19,90</span></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botoes">
+        <button class="formas-paga">
+            <i class="fa-regular fa-credit-card"></i>
+        </button>
+
+        <button class="formas-paga">
+            <i class="fa-solid fa-barcode"></i>
+        </button>
+
+        <button class="formas-paga">
+            <i class="fa-brands fa-pix"></i>
+        </button>
+
+        <button class="continuar">Continuar</button>
+    </div>
+
+    <br><br><br><br>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

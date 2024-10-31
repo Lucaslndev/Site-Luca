@@ -1,0 +1,300 @@
+body {
+    margin: 0; /* Margem da pagina */
+    padding: 0; /* Espaco dentro dos elementos */
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden; /* Tira o scrollbar horizontal */
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    font-family: Azonix;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 20px;
+    letter-spacing: 3px; /* Da um espacamento entre as letras */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+span {
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    background-color: black;
+    border: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: normal;
+    font-family: Azonix;
+}
+
+.menu ul a:hover {
+    color: red;
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(41, 41, 41, 0.615);
+    padding: 25px;
+    background-color: transparent;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.botao01 {
+    background-image: url(imagens/camisa01.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao02 {
+    background-image: url(imagens/camisa02.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao03 {
+    background-image: url(imagens/CANECA.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao04 {
+    background-image: url(imagens/Camisa\ Luca\ V.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao05 {
+    background-image: url(imagens/Caneca\ LUCA\ V.png);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao06 {
+    background-image: url(imagens/Camisa\ longa.png);
+    background-size: 265px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao07 {
+    background-image: url(imagens/Touca\ L.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao08 {
+    background-image: url(imagens/Meia.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    margin-top: 50px;
+    font-family: arial;
+    text-align: start;
+}
+
+h3 {
+    font-family: arial;
+    text-align: start;
+}
+
+h4 {
+    font-family: arial;
+    text-align: start;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.container-sobre {
+    margin-left: 50px;
+}
+
+.container-servico {
+    margin-left: 50px;
+}
+
+.container-suporte {
+    margin-left: 50px;
+}
+
+.text-sobre {
+    visibility: visible;
+    color: black;
+    text-align: start;
+    text-shadow: none;
+    margin-top: 50px;
+    font-family: arial;
+    font-size: 25px;
+}
+
+.icon-zap {
+    margin-left: 10px;
+    vertical-align: middle; /* faz com que o ícone fique alinhado ao meio do texto. */
+}
+
+.verifica-icon {
+    margin-left: 10px;
+    vertical-align: middle; /* faz com que o ícone fique alinhado ao meio do texto. */
+}
+
+.pontos-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.ajuste-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.camiseta-escura {
+    width: 200px;
+}
+
+.botao01:hover h2 {
+    visibility: visible; /* Faz com o que o texto dentro do botão fique visivel */
+}
+
+.botao02:hover h2 {
+    visibility: visible;
+}
+
+.botao03:hover h2 {
+    visibility: visible;
+}
+
+.botao04:hover h2 {
+    visibility: visible;
+}
+
+.botao05:hover h2 {
+    visibility: visible;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 3%;
+    padding-left: 50%;
+}
+
+.destaque-valores {
+    font-weight: bold;
+}
+
+.pq-servico {
+    font-weight: bold;
+}
+
+
+.em-desenvolvimento {
+    text-align: center;
+    margin-top: 17%;
+}
+
+.descr-pro {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(41, 41, 41, 0.615);
+    background-color: transparent;
+    height: 485px;
+}
+
+.titulo-lege {
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.subtitulo-lege {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.legenda-produto {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.carrinho {
+    width: 250px;
+    height: 5px;
+    display: flex;
+    background-color: #282729;
+    box-shadow: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+
+.le-parcela {
+    color: green;
+    font-size: 15px;
+}
+
+.descr-pro .carrinho:active {
+    transform: scale(0.90);
+}
+
+@media screen and (max-width: 5120px) {
+    .menu {
+        margin-left: 7vh;
+        margin-top: 4vh;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .menu {
+        margin-left: .1vh;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+}
